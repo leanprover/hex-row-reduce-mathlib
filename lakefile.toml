@@ -9,12 +9,12 @@ rev = "f1580d28c2e9ff9e8d4d7cdef9dccbaa17780b03"
 [[require]]
 name = "HexRowReduce"
 git = "https://github.com/leanprover/hex-row-reduce.git"
-rev = "45d47a67f4300792df1e371e099b9ac6862273f0"
+rev = "176a31945c321d8268d5b340851d98b8f1bc7c8d"
 
 [[require]]
 name = "HexMatrixMathlib"
 git = "https://github.com/leanprover/hex-matrix-mathlib.git"
-rev = "a0ae2639613d29f73a5fe5abccd7749af8f9a67c"
+rev = "9ccf1baf235ae8fe10733a279cffa96ff28236dd"
 
 [[require]]
 name = "mathlib"
