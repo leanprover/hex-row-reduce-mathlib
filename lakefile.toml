@@ -1,25 +1,30 @@
 name = "hex-row-reduce-mathlib"
 defaultTargets = ["HexRowReduceMathlib"]
 
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
 [[require]]
 name = "HexBasic"
 git = "https://github.com/leanprover/hex-basic.git"
-rev = "f1580d28c2e9ff9e8d4d7cdef9dccbaa17780b03"
+rev = "a3ab4fd9a79efbe6b07337836b3b5828d22d65a6"
 
 [[require]]
 name = "HexRowReduce"
 git = "https://github.com/leanprover/hex-row-reduce.git"
-rev = "a5b4db02cadc7a1e60e2ae7e085cb6facf415ee0"
+rev = "79b2be598fa85f5e57c6f0b213419c948c07f656"
 
 [[require]]
 name = "HexMatrixMathlib"
 git = "https://github.com/leanprover/hex-matrix-mathlib.git"
-rev = "be15f40e4942fe78ed28f037c9407a94bc3c10ce"
+rev = "7b28ee80d5f372054e167b7ce0a4fe57dac90e13"
 
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4.git"
-rev = "v4.32.0-rc1-patch1"
+rev = "v4.32.2"
 
 [[lean_lib]]
 name = "HexRowReduceMathlib"
