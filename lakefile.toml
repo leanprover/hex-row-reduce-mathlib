@@ -9,17 +9,17 @@ leanOptions = [
 [[require]]
 name = "HexBasic"
 git = "https://github.com/leanprover/hex-basic.git"
-rev = "a47240943e925951a676d1a1c2f2a615ae68fdef"
+rev = "1a0fff2c8f545753b01cff0d941bf48f945cd299"
 
 [[require]]
 name = "HexRowReduce"
 git = "https://github.com/leanprover/hex-row-reduce.git"
-rev = "7550b5334bea67cba65c9a96a87d24557090784f"
+rev = "35b27c54b2211b0a2b4e74f74d0041242edcd524"
 
 [[require]]
 name = "HexMatrixMathlib"
 git = "https://github.com/leanprover/hex-matrix-mathlib.git"
-rev = "7e610d89729859968ae51cbbecb8aaef537d7225"
+rev = "ee61da70b963a82eb056a5304aa5a65e1af21bf8"
 
 [[require]]
 name = "mathlib"
